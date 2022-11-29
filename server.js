@@ -5,7 +5,7 @@ const express = require('express')
 const cors = require('cors')
 const passport = require('passport')
 const cookieParser = require('cookie-parser')
-const session = require('cookie-session')
+const session = require('express-session')
 const bodyParser = require('body-parser')
 const routes = require('./routes/routes')
 
