@@ -29,7 +29,7 @@ app.use(bodyParser.urlencoded({ extended: true }))
 app.use(
   cors({
     // NOTE: PRODUCTION
-    origin: 'YOUR PRODUCTION URL',
+    origin: 'https://facebook-mern.onrender.com',
 
     // NOTE: DEVELOPMENT
     // origin: 'https://localhost:3000',
