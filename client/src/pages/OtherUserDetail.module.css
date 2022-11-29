@@ -1,0 +1,261 @@
+.otherUserDetail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: var(--white);
+}
+
+.profilePicture {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+
+.profilePicture .pictureContainer {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+}
+
+.profilePicture .pictureContainer .imageBorder {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  border-radius: 100px;
+  border: 5px solid var(--color-profile-picture-border);
+  box-shadow: 0 0 0 1px var(--color-profile-picture-shadow);
+}
+
+.otherUserDetail h2 {
+  margin-bottom: 0.8rem;
+}
+
+.otherUserDetail .addFriendContainer {
+  display: flex;
+  justify-content: center;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+.otherUserDetail .addFriendContainer p {
+  margin: 0;
+  font-size: 0.875rem;
+  color: var(--color-text);
+  margin-bottom: 1rem;
+}
+
+.otherUserDetail .addFriendContainer button {
+  background-color: var(--color-primary);
+  color: var(--white);
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 0.5rem 2.5rem;
+  border: 0;
+  border-radius: var(--border-radius-primary);
+  width: 100%;
+  max-width: 478px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+/* FRIENDS POSTS */
+.otherUserDetail .otherUserPosts {
+  width: 100%;
+}
+
+.otherUserDetail .otherUserPost {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.otherUserDetail .otherUserPost .date {
+  font-size: 0.85rem;
+  color: var(--color-posts-date);
+  letter-spacing: -0.02rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  margin-top: 0.6rem;
+}
+
+/* posts content */
+.otherUserDetail .postContent {
+  font-size: 1rem;
+  color: var(--black);
+  width: 100%;
+}
+
+/* likes and comments */
+.otherUserDetail .likesAndCommentsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.otherUserDetail .likes {
+  padding: 0.7rem 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.otherUserDetail .likes .thumbsUpIcon {
+  color: var(--white);
+  background: var(--color-posts-thumbs-up-icon);
+  font-size: 0.8rem;
+  padding: 0.2rem;
+  padding-bottom: 0.27rem;
+  padding-left: 0.25rem;
+  border-radius: 100px;
+  position: relative;
+  margin-right: 0.4rem;
+}
+
+.otherUserDetail button.showComments {
+  background-color: transparent;
+  color: var(--color-posts-show-comments-button);
+  font-weight: 500;
+  font-size: 0.9rem;
+  padding: 0.5rem 2.5rem;
+  border: 0;
+  cursor: pointer;
+}
+
+.otherUserDetail .likeAndCommentButtonContainer {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem 1rem;
+}
+
+.otherUserDetail .likeAndCommentButtonContainer button {
+  background-color: transparent;
+  color: var(--color-posts-like-and-comment-button);
+  letter-spacing: -0.02rem;
+  font-weight: 600;
+  font-size: 0.8rem;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.otherUserDetail .likeAndCommentButtonContainer img {
+  opacity: 0.625;
+  width: 1.15rem;
+  height: 1.15rem;
+  margin-right: 0.5rem;
+}
+
+/* add comment section */
+.otherUserDetail .addCommentContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0.6rem 1rem;
+}
+
+.otherUserDetail .addCommentContainer img {
+  width: 2.4rem;
+  height: 2.4em;
+  margin-right: 0.6rem;
+  cursor: pointer;
+}
+
+.otherUserDetail .addCommentContainer input {
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  border: 1px solid var(--color-posts-input-border);
+  box-shadow: inset 0 2px 3px -1px rgba(0, 0, 0, 0.08);
+  padding: 0.7rem 1rem;
+  margin-right: 0.6rem;
+}
+
+.otherUserDetail .addCommentContainer button {
+  background: 0;
+  font-weight: 500;
+  font-size: 0.875rem;
+  padding: 0.65rem 0.55rem;
+  border: 1px solid var(--color-posts-add-comment-button);
+  color: var(--color-posts-add-comment-button);
+  border-radius: 0.16rem;
+  cursor: pointer;
+}
+
+.otherUserDetail .addCommentContainer button:hover {
+  background-color: var(--color-primary);
+  color: var(--white);
+  padding: 0.65rem 0.613rem;
+  border: 0;
+}
+
+/* COMMENTS */
+.otherUserDetail .comments {
+  width: 100%;
+  padding: 0.7rem 1rem;
+}
+
+.otherUserDetail .comment {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.otherUserDetail .comment .commentText {
+  background-color: var(--color-posts-comment-text-bg);
+  padding: 0.3rem 0.9rem;
+  border-radius: 1.15rem;
+}
+
+.otherUserDetail .comment .commentText h5 {
+  margin-bottom: 0.2rem;
+}
+
+.otherUserDetail .comment .commentText p {
+  color: var(--color-posts-comment-text);
+}
+
+.otherUserDetail .comment .date {
+  font-size: 0.8rem;
+  color: var(--color-posts-comment-date);
+  letter-spacing: -0.05rem;
+  font-weight: 500;
+  position: relative;
+  top: 1px;
+  margin-left: 0.9rem;
+}
+
+/* hr DIVIDERS */
+
+.otherUserDetail hr.divider {
+  width: 100%;
+  border: 4px solid var(--color-home-divider);
+  /* margin-bottom: 0.6rem; */
+}
+
+.otherUserDetail hr.lastDivider {
+  width: 100%;
+  height: 150px;
+  background-color: var(--color-home-divider);
+  border: 0;
+}
+
+/* LOADING */
+.otherUserDetail .loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 7rem;
+}
