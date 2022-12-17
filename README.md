@@ -22,6 +22,10 @@ username: kate
 password: 1234
 ```
 
+#### Screenshots
+
+![Project Screenshot](./screenshot.png?raw=true 'Project Screenshot')
+
 ## Test the app locally on your machine
 
 - Go to github/emanuelefavero/facebook-mern and follow the instructions there.
