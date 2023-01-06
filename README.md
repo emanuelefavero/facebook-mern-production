@@ -37,3 +37,7 @@ password: 1234
 ## Useful links
 
 - [What is the MERN stack](https://www.mongodb.com/mern-stack)
+
+## License
+
+- [MIT](LICENSE.md)
